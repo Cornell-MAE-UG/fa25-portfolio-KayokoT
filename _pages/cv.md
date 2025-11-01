@@ -13,7 +13,7 @@ permalink: /cv/
 ---
 
 #### Objective
-Aspiring energy engineer at Cornell University majoring in mechanical engineering. I have a strong passion in optimizing current energy technologies and exploring new fields, specifically solar and nuclear. I am excited to learn about innovative technologies that integrate with the environment to reduce carbon pollution and energy waste.
+Aspiring energy engineer at Cornell University majoring in mechanical engineering. I have a strong passion in optimizing current energy technologies and exploring new fields, specifically solar and nuclear. I am excited to learn about innovative technologies that integrate with the environment to reduce carbon pollution and energy waste. 
 
 ---
 
