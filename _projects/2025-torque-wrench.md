@@ -51,4 +51,4 @@ This is 28.4% higher than the calculated maximum deflection of 0.278 inches, usi
 At the strain gauge, ANSYS outputs a strain of 1069.6 microstrain, which has essentially zero error with the predicted value of 1069.53 microstrain. Using the ANSYS strain value and assuming a half-bridge strain with a gauge calibration factor of 2, the torque wrench sensitivity equals 1.0696 mV/V. This meets the design requirement. 
 
 Selected strain gauge:
-350 Ω half-bridge Model No. SGT-1LH/350-TY11 by DywerOmega with a carrier length of 0.563 and height of 0.157 would fit on the wrench and be easy to install.
+350 Ω half-bridge Model No. SGT-1LH/350-TY11 by DywerOmega with a carrier length of 0.362 and height of 0.157 would fit on the wrench and be easy to install.
