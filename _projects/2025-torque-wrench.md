@@ -12,9 +12,11 @@ I designed a simplified 600 in-lbf torque wrench with the following requirements
 - A fatigue stress safety factor of 1.5
 - A minimum strain gauge of 1 mV/V
 
-Using [a MATLAB script] ({{ "/assets/torquewrenchfinaldesignscript.pdf" | relative_url }}), I iterated over different width and thickness values to meet the requirements. As shown in the following image, I selected a thickness of 0.4 inches and a width of 0.7 inches. The length of the wrench was left at the baseline design of 16 inches, which allows for a reasonable required input force of 37.5 pounds. The strain gauge is located an inch from the drive. The dimensions of the drive were set, and to reduce stress concentrations a fillet of 0.5 in was applied.
+Using MATLAB, I iterated over different width and thickness values to meet the requirements. As shown in the following image, I selected a thickness of 0.4 inches and a width of 0.7 inches. The length of the wrench was left at the baseline design of 16 inches, which allows for a reasonable required input force of 37.5 pounds. The strain gauge is located an inch from the drive. The dimensions of the drive were set, and to reduce stress concentrations a fillet of 0.5 in was applied.
 
 ![Image of CAD model]({{ "/assets/images/CADdimensions.png" | relative_url }}){: style="width: 800px; display: block; margin: 0 auto;" }
+
+[MATLAB script]({{ "/assets/torquewrenchfinaldesignscript.pdf" | relative_url }})
 
 I selected Ti-6Al-4V (aged) as the material for the torque wrench due to its favorable balance of strength, toughness, and fatigue resistance. Key material properties are:
 - Young's Modulus = 16.1e6 psi
