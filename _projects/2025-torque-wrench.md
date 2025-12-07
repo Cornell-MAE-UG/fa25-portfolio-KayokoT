@@ -7,14 +7,14 @@ image: /assets/images/displacement.png
 ---
 
 I designed a simplified 600 in-lbf torque wrench with the following requirements: 
-a. A safety factor against yield of 4
-b. A safety factor for crack growth from an assumed crack of depth 0.04 in of 2
-c. A fatigue stress safety factor of 1.5
-d. A minimum strain gauge of 1 mV/V
+- A safety factor against yield of 4
+- A safety factor for crack growth from an assumed crack of depth 0.04 in of 2
+- A fatigue stress safety factor of 1.5
+- A minimum strain gauge of 1 mV/V
 
 Using MATLAB, I iterated over different width and thickness values to meet the requirements. As shown in the following image, I selected a thickness of 0.4 inches and a width of 0.7 inches. The length of the wrench was left at the baseline design of 16 inches, which allows for a reasonable required input force of 37.5 pounds. The strain gauge is located an inch from the drive. The dimensions of the drive were set, and to reduce stress concentrations a fillet of 0.5 in was applied.
 
-![Image of CAD model]({{ "/assets/images/CADdimensions.png" | relative_url }})
+![Image of CAD model]({{ "/assets/images/CADdimensions.png" | relative_url }}){: style="width: 200px; display: block; margin: 0 auto;" }
 
 I selected Ti-6Al-4V (aged) as the material for the torque wrench due to it's favorable balance of strength, toughness, and fatigue resistance. Key material properties are:
 - Young's Modulus (E) = 16.1e6 psi
@@ -27,10 +27,19 @@ Ti-6Al-4V has a high yield strength and moderate fracture toughness relative to 
 
 Using these selected material and geometric properties, I created a CAD model in Autodesk Fusion and then used ANSYS to model the deformation, stresses, and strains of the wrench under its maximum torque of 600 in-lbf. I clamped the drive 0.1 inches above the wrench, and applied a load of 37.5 lbs in the positive x direction.
 
-![Applied load and boundary conditions]({{ "/assets/images/BCs.png" | relative_url }}){: .inline-image-r style="width: 200px"}
+![Applied load and boundary conditions]({{ "/assets/images/BCs.png" | relative_url }}){: style="width: 200px; display: block; margin: 0 auto;" }
 
 ANSYS produced the following results:
-![Normal strain contours]({{ "normalstraincontours.png" | relative_url }}){: .inline-image-r style="width: 200px"}
+![Normal strain contours]({{ "normalstraincontours.png" | relative_url }}){: style="width: 200px; display: block; margin: 0 auto;" }
 
-![Maximum principal stress contours]({{ "maxprinstress.png" | relative_url }}){: .inline-image-r style="width: 200px"}
-![Maximum principal stress, zoomed]({{ "maxprinstresszoom.png" | relative_url }}){: .inline-image-r style="width: 200px"}
+![Maximum principal stress contours]({{ "maxprinstress.png" | relative_url }}){: style="width: 200px; display: block; margin: 0 auto;" }
+![Maximum principal stress, zoomed]({{ "maxprinstresszoom.png" | relative_url }}){: style="width: 200px; display: block; margin: 0 auto;" }
+
+![Normal stress contours]({{ "normstresszoom.png" | relative_url }}){: style="width: 200px; display: block; margin: 0 auto;" }
+The maximum normal stress is 67243 psi, much larger than that calculated with 
+load point deflection, strains at the strain gauge locations
+
+Torque wrench sensitivity in mV/V using strains from the FEM analysis
+
+Strain gauge selected (give type and dimensions). Note that design must physically
+have enough space to bond the gauges
