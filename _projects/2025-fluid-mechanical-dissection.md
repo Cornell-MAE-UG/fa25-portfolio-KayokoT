@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Fluid-Mechanical Dissection
+title: Hair Dryer Flow
 description: Dissected and analyzed a hair dryer
 image: /assets/images/hairdryer.jpg
 ---
