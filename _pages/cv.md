@@ -20,7 +20,7 @@ Aspiring energy engineer at Cornell University majoring in mechanical engineerin
 #### Education
 - **Cornell University**  
   *Bachelor of Science in Mechanical Engineering*  
-  GPA: 4.197/4.30 | Graduation: December, 2026
+  GPA: 4.147/4.30 | Graduation: December, 2026
 
 - **Blue Valley North High school**  
   *High School Diploma*  
@@ -43,14 +43,13 @@ Aspiring energy engineer at Cornell University majoring in mechanical engineerin
   - Collect and analyze data to determine the impact of stage count, saline concentration, and air gap thickness on the coefficient of performance
   - Aim to couple the cooling device with a solar distiller
 
-- **ENGRD 2210 Thermodynamics**:  
-  *Undergraduate Teaching Assistant*  
-  - Assist students during weekly discussion sections by presenting course topics, explaining problem-solving strategies, and answering questions
-  - Manage logistical tasks such as quiz answer key write-ups and test scanning to support efficient and timely feedback
-
-
 ---
 #### Past Experience
+- **ENGRD 2210 Thermodynamics**:  
+  *Undergraduate Teaching Assistant*  
+  - Assisted students during weekly discussion sections by presenting course topics, explaining problem-solving strategies, and answering questions
+  - Managed logistical tasks such as quiz answer key write-ups and test scanning to support efficient and timely feedback
+
 - **Staged Pressurized Oxy-Combustion (SPOC) Lab**:
   *Thermal Energy Management on Multiple Scales REU Fellow Washington University in St. Louis | June 2025 – Aug 2025*
   - Studied radiative heat transfer and carbon-negative biomass combustion
