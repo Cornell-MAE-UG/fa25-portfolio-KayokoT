@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Heat Transfer PSET
+title: Heat Transfer PSET Reflection
 description: Analyzed a PV panel and fin structures for problem set 4
 technologies:
 image: /assets/images/heat-transfer.png
