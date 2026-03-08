@@ -1,8 +1,8 @@
 ---
 layout: project
-title: Thermal Resistance Networks and Extended Surface Analysis
+title: Heat Transfer PSET
 description: Analyzed a PV panel and fin structures for problem set 4
-technologies: [MATLAB]
+technologies:
 image: /assets/images/heat-transfer.png
 ---
 For Problem Set #4 in MAE 3240: Heat Transfer, I completed three problems that applied concepts such as thermal resistance networks and extended surface (fin) theory to realistic engineering scenarios, including photovoltaic panels and high-temperature industrial supports. The first problem, which analyzed a photovoltaic panel, was particularly insightful in demonstrating how electrical efficiency degrades as the panel temperature increases. Promoting heat transfer away from the panel is therefore an important thermal management challenge when designing more efficient solar energy systems. Understanding the underlying governing equations and thermal resistance model for this system will be especially useful as I continue working in the Energy Research Lab to optimize and quantify the performance of a passive PV cooling system.
